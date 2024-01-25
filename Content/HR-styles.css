@@ -1,0 +1,23 @@
+﻿body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #ff5722; /* より濃いオレンジ色 */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe0b2; /* より薄いオレンジ色 */
+}
